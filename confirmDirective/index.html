@@ -1,0 +1,13 @@
+<html ng-app="app">
+  <head></head>
+  <body>
+
+    <div ng-controller="appController as appCtrl">
+      <button ng-confirm ng-confirm-message="TOTO" ng-confirm-callback="appCtrl.clickOK()">OK</button>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.js"></script>
+  <script src="app.js"></script>
+</html>
